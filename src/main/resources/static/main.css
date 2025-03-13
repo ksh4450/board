@@ -1,0 +1,84 @@
+.dropdown {
+    border-radius: 10px;
+    height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-floating {
+    margin: 5px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.error-message {
+    color: red;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.welcome-message {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.separator {
+    border-top: 2px solid #dee2e6;
+    margin: 30px 0;
+}
+
+.welcome-container {
+    width:500px;
+    margin:0 auto;
+}
+
+.comment-content {
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.post-title {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 550px;
+}
+
+.board-title {
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    max-width: 800px;
+}
